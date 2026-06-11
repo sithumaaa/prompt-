@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prompt-vaultttt.sithumd991.workers.dev/sitemap.xml
