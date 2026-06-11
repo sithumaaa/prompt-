@@ -10,15 +10,5 @@
     "image": "./images/prompts/001.png",
     "date_added": "2026-06-11"
   },
-   {
-    "id": "002",
-    "title": "couple lock screen",
-    "prompt": "Create an ultra-realistic cinematic low-angle couple portrait with a smartphone lockscreen UI overlay, captured in 8K DSLR quality with extremely sharp focus, zero blur, no artificial smoothing, no CGI or cartoon look, maintaining hyper-realistic skin texture, detailed fabric, and crisp environment clarity, 3:4 vertical aspect ratio, open outdoor environment with a clean minimal sky background, soft light blue sky with subtle natural clouds filling the entire frame, no buildings, no objects, no distractions, a couple leaning toward the camera from above in a modern selfie-style composition, both faces and hands clearly visible, faces fully natural and identity-preserved, no beautification, reshaping, or over-smoothed skin, maintaining natural imperfections including pores, texture, and subtle asymmetry, both subjects leaning slightly forward toward the camera, heads tilted slightly inward and close together, each subject extending one hand downward toward the camera, fingers forming a clear heart shape in the center of the frame with thumbs and fingers touching, direct eye contact with the camera, soft natural happy smiles, warm romantic friendly vibe, no exaggerated expressions, female wearing a simple minimal black t-shirt with soft fabric and natural drape, male wearing a white inner t-shirt with a black casual shirt featuring realistic texture and natural folds, optional smartwatch, natural daylight from a front-top direction, soft even illumination on both faces, no harsh shadows, natural skin highlights on cheeks and forehead, balanced exposure with realistic tones, full sky visible with light blue tones and soft clouds, clean minimal composition, low-angle shot with the camera placed below and pointing upward, close-up framing showing faces and hands clearly, realistic 50mm lens perspective, heart shape perfectly centered, ultra-sharp focus on faces, hands, and sky, no blur anywhere, hyper-realistic outdoor couple photography, modern clean social-media aesthetic, natural color grading with no overprocessing, smartphone lockscreen UI overlay showing “Sunday, 19 April” at the top center in a minimal iOS-style font, large bold time “19:04” below it, signal icon and “Verizon” at the top left, battery icon showing 47% at the top right, clean and subtle lockscreen overlay, negative prompt: blur, motion blur, depth of field, soft focus, background blur, CGI look, cartoon style, plastic skin, distorted hands, extra fingers, extra hands, wrong heart shape pose, bad anatomy, identity change, watermark, low resolution",
-    "tool": "Gemini/Chatgpt",
-    "category": "Couple",
-    "tags": ["couple", "love", "couple lock screen", "ai prompt", "photorealistic"],
-    "trending": true,
-    "image": "./images/prompts/dop.jpeg",
-    "date_added": "2026-06-11"
-  }
+  
 ]
