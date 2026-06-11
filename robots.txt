@@ -1,0 +1,8 @@
+# In public/robots.txt
+User-agent: *
+Allow: /
+Sitemap: https://prompt-vaultttt.sithumd991.workers.dev/sitemap.xml
+
+# Block unnecessary crawling
+Disallow: /api/
+Disallow: /admin/
