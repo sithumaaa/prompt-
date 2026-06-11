@@ -12,7 +12,7 @@
     "tags": ["couple", "sunset", "golden hour", "romantic", "photorealistic"],
     "altText": "Romantic couple walking during golden hour sunset",
     "trending": true,
-    "image": "./images/prompts/dop.jpeg",
+    "image": "./images/prompts/0001.jpeg",
     "date_added": "2026-06-11"
   },
   {
@@ -27,7 +27,7 @@
     "tags": ["couple", "luxury", "city", "night", "rooftop"],
     "altText": "Luxury rooftop date overlooking city lights",
     "trending": true,
-    "image": "./images/prompts/002-rooftop-date.webp",
+    "image": "./images/prompts/0002.jpeg",
     "date_added": "2026-06-11"
   },
   {
@@ -42,7 +42,7 @@
     "tags": ["couple", "rain", "neon", "cinematic", "movie"],
     "altText": "Couple walking on a rainy neon-lit street",
     "trending": true,
-    "image": "./images/prompts/003-rainy-neon-couple.webp",
+    "image": "./images/prompts/0003.jpeg",
     "date_added": "2026-06-11"
   },
   {
@@ -57,7 +57,7 @@
     "tags": ["couple", "beach", "sunset", "travel", "romantic"],
     "altText": "Couple standing on a tropical beach at sunset",
     "trending": true,
-    "image": "./images/prompts/004-beach-sunset-couple.webp",
+    "image": "./images/prompts/0004.jpeg",
     "date_added": "2026-06-11"
   },
   {
@@ -72,7 +72,7 @@
     "tags": ["couple", "cafe", "lifestyle", "date", "photography"],
     "altText": "Couple enjoying a cozy coffee shop date",
     "trending": true,
-    "image": "./images/prompts/005-cafe-date.webp",
+    "image": "./images/prompts/0005.jpeg",
     "date_added": "2026-06-11"
   },
   {
