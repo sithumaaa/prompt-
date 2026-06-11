@@ -10,7 +10,6 @@
     "image": "./images/prompts/001.png",
     "date_added": "2026-06-11"
   },
-  [
   {
     "id": "001",
     "slug": "golden-hour-romantic-couple-photo",
@@ -161,5 +160,4 @@
     "image": "./images/prompts/010-instagram-couple.webp",
     "date_added": "2026-06-11"
   }
-]
 ]
