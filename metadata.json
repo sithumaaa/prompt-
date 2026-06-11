@@ -1,0 +1,6 @@
+{
+  "name": "PromptVault",
+  "description": "A search and discovery library of AI image prompts for Midjourney, DALL-E, Stable Diffusion, and more with copy-paste functionality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

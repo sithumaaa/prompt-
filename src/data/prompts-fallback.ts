@@ -1,0 +1,141 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { PromptEntry } from '../types';
+
+export const fallbackPrompts: PromptEntry[] = [
+  {
+    id: "001",
+    title: "Cinematic Cyberpunk Street",
+    prompt: "A cinematic photograph of a neon-lit cyberpunk street at night, rain-soaked pavement reflecting purple and teal lights, a lone figure in a trench coat, 35mm film grain, anamorphic lens flare, hyper-detailed, photorealistic, 8K, --ar 16:9",
+    tool: "Midjourney v6",
+    category: "Cyberpunk",
+    tags: ["cinematic", "neon", "rain", "cyberpunk", "photorealistic"],
+    trending: true,
+    image: "./images/prompts/001.png",
+    date_added: "2026-06-11"
+  },
+  {
+    id: "002",
+    title: "Dreamy Pastel Forest",
+    prompt: "An ethereal forest at golden hour, soft pastel colors, glowing fireflies, a tiny cottage in the distance, watercolor illustration style, Studio Ghibli inspired, soft light, lush foliage, magic realism",
+    tool: "DALL-E 3",
+    category: "Fantasy",
+    tags: ["fantasy", "ghibli", "illustration", "pastel", "nature"],
+    trending: true,
+    image: "./images/prompts/002.png",
+    date_added: "2026-06-10"
+  },
+  {
+    id: "003",
+    title: "Retro Future Astronaut",
+    prompt: "An astronaut holding a vintage boombox on a red sand desert, 1970s retro-futurism aesthetic, warm color grading, cinematic lighting, conceptual art, highly stylized, analog grain texture",
+    tool: "Stable Diffusion XL",
+    category: "Sci-Fi",
+    tags: ["astronaut", "retro-futurism", "sci-fi", "desert", "vintage"],
+    trending: true,
+    image: "./images/prompts/003.png",
+    date_added: "2026-06-09"
+  },
+  {
+    id: "004",
+    title: "Futuristic Solarium Villa",
+    prompt: "An architectural render of a luxury concrete villa nested on a sea cliff, massive circular glass solarium dome, indoor tropical garden, brutalism meets minimalism, dusk golden lighting, high-end design, realistic",
+    tool: "Midjourney v6",
+    category: "Architecture",
+    tags: ["villa", "brutalist", "interior", "minimalism", "modern"],
+    trending: true,
+    image: "./images/prompts/004.png",
+    date_added: "2026-06-08"
+  },
+  {
+    id: "005",
+    title: "Sunkissed Freckled Portrait",
+    prompt: "A close-up portrait of a woman with pronounced freckles under dappled sunlight, warm golden hour tones, flowing red hair, deep green eyes, natural makeup, captured on 85mm medium format film, extremely detailed skin texture",
+    tool: "Adobe Firefly",
+    category: "Portrait",
+    tags: ["portrait", "film-grain", "natural", "freckles", "lighting"],
+    trending: false,
+    image: "./images/prompts/005.png",
+    date_added: "2026-06-07"
+  },
+  {
+    id: "006",
+    title: "Cyber-Samurai Ronin",
+    prompt: "A high-contrast neon samurai with a glowing katana, walking through a futuristic Tokyo back-alley, holographic advertisements, high-octane action anime style, dynamic pose, rich details, cell shaded",
+    tool: "Ideogram 2.0",
+    category: "Anime",
+    tags: ["samurai", "action", "neon", "hologram", "illustration"],
+    trending: true,
+    image: "./images/prompts/006.png",
+    date_added: "2026-06-06"
+  },
+  {
+    id: "007",
+    "title": "Geometric Abstract Desert",
+    "prompt": "A minimalist surreal landscape, giant geometric smooth white spheres resting on orange sand dunes under a giant pale moon, deep shadows, pastel blue sky, high-fashion art photography, serene, fine-art",
+    "tool": "Midjourney v6",
+    "category": "Surrealism",
+    "tags": ["abstract", "minimal", "desert", "geometric", "surreal"],
+    "trending": false,
+    "image": "./images/prompts/007.png",
+    "date_added": "2026-06-05"
+  },
+  {
+    "id": "008",
+    "title": "Glass Terrarium City",
+    "prompt": "A miniature bustling futuristic metropolis built entirely inside a giant clear glass lightbulb, lying on a mossy dark forest floor, glowing details, highly intricate, macro 3d render, tilt shift",
+    "tool": "Stable Diffusion XL",
+    "category": "Fantasy",
+    "tags": ["isometric", "miniature", "metropolis", "terrarium", "glass"],
+    "trending": false,
+    "image": "./images/prompts/008.png",
+    "date_added": "2026-06-04"
+  },
+  {
+    "id": "009",
+    "title": "Retro Wave Sports Car",
+    "prompt": "A sleek 80's sports car driving along a coastal highway during sun-drenched vaporwave sunset, wireframe neon grids, palm trees silhouette, retro-wave music aesthetic illustration, synthwave colors",
+    "tool": "DALL-E 3",
+    "category": "Retro",
+    "tags": ["car", "vaporwave", "synthwave", "80s", "vibrant"],
+    "trending": false,
+    "image": "./images/prompts/009.png",
+    "date_added": "2026-06-03"
+  },
+  {
+    "id": "010",
+    "title": "Inked Mythical Dragon",
+    "prompt": "A detailed black ink and gold leaf illustration of a majestic Eastern dragon swirling through atmospheric clouds, Japanese Ukiyo-e style, fine line art, high contrast, golden accents, highly textured",
+    "tool": "Ideogram 2.0",
+    "category": "Fantasy",
+    "tags": ["dragon", "ink", "gold-leaf", "traditional", "illustration"],
+    "trending": false,
+    "image": "./images/prompts/010.png",
+    "date_added": "2026-06-02"
+  },
+  {
+    "id": "011",
+    "title": "Biophilic Eco-Cityscape",
+    "prompt": "A vibrant visual of an eco-friendly biophilic city with skyscrapers covered in luxury vertical forests, hanging gardens, solar panel wings, flowing waterfalls, clean energy future, sunny sky, architectural marvel",
+    "tool": "Adobe Firefly",
+    "category": "Architecture",
+    "tags": ["eco-friendly", "future", "nature", "skyscraper", "utopia"],
+    "trending": false,
+    "image": "./images/prompts/011.png",
+    "date_added": "2026-06-01"
+  },
+  {
+    "id": "012",
+    "title": "Lush Mist Waterfall",
+    "prompt": "A high-altitude shot of a cascading waterfall plunging into a deep cyan gorge, dark volcanic basalt rocks, bright green moss, dense fog rising, aerial cinematic drone photography, majestic nature",
+    "tool": "Midjourney v6",
+    "category": "Nature",
+    "tags": ["waterfall", "nature", "landscape", "drone-shot", "atmospheric"],
+    "trending": false,
+    "image": "./images/prompts/012.png",
+    "date_added": "2025-05-31"
+  }
+];

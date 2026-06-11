@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Inter', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Custom Color Palette - Professional Polish Theme */
+  --color-brand-bg: #F8FAFC; /* Slate-50 background */
+  --color-brand-card: #FFFFFF; /* Crisp white cards */
+  --color-brand-surface: #F1F5F9; /* Slate-100 surfaces */
+  --color-brand-accent: #4F46E5; /* Tech-focused Indigo-600 */
+  --color-brand-accent-glow: #6366F1; /* Indigo-500 hover/glow */
+  --color-brand-text-primary: #0F172A; /* Slate-900 high contrast */
+  --color-brand-text-secondary: #475569; /* Slate-600 labels */
+  --color-brand-text-muted: #64748B; /* Slate-500 placeholder/muted */
+  --color-brand-tag-bg: #EEF2FF; /* Indigo-50 badging background */
+  --color-brand-success: #10B981; /* Emerald success feedback */
+  --color-brand-border: #E2E8F0; /* Slate-200 clean borders */
+  
+  --shadow-glow: 0 4px 6px -1px rgba(79, 70, 229, 0.05), 0 2px 4px -2px rgba(79, 70, 229, 0.05);
+  --shadow-glow-hover: 0 10px 15px -3px rgba(79, 70, 229, 0.1), 0 4px 6px -4px rgba(79, 70, 229, 0.1);
+}
+
+/* Custom base elements & helpers */
+html, body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text-primary);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-surface);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-accent-glow);
+}
+
+/* Subtle glowing pulse animations */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 4px 10px -1px rgba(79, 70, 229, 0.1);
+  }
+  50% {
+    box-shadow: 0 4px 16px 2px rgba(79, 70, 229, 0.2);
+  }
+}
+
+.pulse-glow {
+  animation: pulseGlow 3.5s infinite ease-in-out;
+}
+
+/* Shimmer animation for loading states */
+@keyframes placeholderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(to right, #F1F5F9 8%, #E2E8F0 18%, #F1F5F9 33%);
+  background-size: 800px 104px;
+  animation: placeholderShimmer 1.5s infinite linear;
+}
+
+/* Scroll snap scrollbars removal for mobile trending row */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
