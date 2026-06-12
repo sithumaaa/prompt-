@@ -150,7 +150,7 @@
     "image": "./images/prompts/010-instagram-couple.webp",
     "date_added": "2026-06-11"
   },
- [
+ 
   {
     "id": "011",
     "slug": "soft-glam-natural-light-portrait",
@@ -225,6 +225,52 @@
     "trending": true,
     "image": "./images/prompts/0015.webp",
     "date_added": "2026-06-11"
+  },
+  {
+    "id": "016",
+    "slug": "cinematic-rainy-city-girl",
+    "title": "Cinematic Rainy City Girl",
+    "metaTitle": "Cinematic Rainy City Portrait AI Prompt | PromptVault",
+    "metaDescription": "Transform a selfie into a cinematic rainy city portrait inspired by viral movie scenes and TikTok edits.",
+    "prompt": "Use the uploaded image as the identity reference. Preserve the face, skin tone, hairstyle, and facial features exactly. Create a cinematic portrait of a girl standing on a rainy city street at night, neon signs reflecting on wet pavement, soft rain droplets, dramatic movie lighting, shallow depth of field, emotional atmosphere, realistic skin texture, high-end cinema camera look, teal and orange color grading, photorealistic, ultra detailed, 8K.",
+    "tool": "Flux",
+    "category": "Girl Portraits",
+    "tags": ["cinematic", "rain", "city", "movie", "aesthetic"],
+    "altText": "Cinematic portrait of a girl on a rainy city street at night",
+    "trending": true,
+    "image": "./images/prompts/0016.webp",
+    "date_added": "2026-06-11"
+  },
+  {
+    "id": "017",
+    "slug": "dreamy-flower-field-girl",
+    "title": "Dreamy Flower Field Aesthetic",
+    "metaTitle": "Dreamy Flower Field Girl AI Prompt | PromptVault",
+    "metaDescription": "Create a soft dreamy aesthetic portrait surrounded by flowers and golden sunlight.",
+    "prompt": "Use the uploaded image as the identity reference. Preserve facial identity perfectly. Create a dreamy aesthetic portrait of a girl standing in a vast flower field during golden hour, warm sunlight shining through her hair, gentle breeze, soft pastel colors, cinematic composition, natural beauty, shallow depth of field, film photography look, peaceful atmosphere, photorealistic, highly detailed, Pinterest-worthy aesthetic.",
+    "tool": "Flux",
+    "category": "Girl Portraits",
+    "tags": ["flowers", "dreamy", "golden hour", "aesthetic", "cinematic"],
+    "altText": "Dreamy aesthetic girl standing in a flower field",
+    "trending": true,
+    "image": "./images/prompts/0017.webp",
+    "date_added": "2026-06-11"
+  },
+  {
+    "id": "018",
+    "slug": "cinematic-library-girl-aesthetic",
+    "title": "Cinematic Library Girl",
+    "metaTitle": "Cinematic Library Aesthetic Portrait AI Prompt | PromptVault",
+    "metaDescription": "Generate a sophisticated cinematic portrait in a luxury library setting.",
+    "prompt": "Use the uploaded image as the identity reference. Keep the face completely recognizable. Create a cinematic portrait of a girl in a grand vintage library, warm sunlight streaming through tall windows, surrounded by bookshelves, elegant outfit, soft shadows, rich color grading, movie scene composition, realistic skin texture, shallow depth of field, premium photography, sophisticated aesthetic, ultra realistic, 8K quality.",
+    "tool": "Flux",
+    "category": "Girl Portraits",
+    "tags": ["library", "cinematic", "elegant", "aesthetic", "portrait"],
+    "altText": "Cinematic portrait of a girl inside a luxury library",
+    "trending": true,
+    "image": "./images/prompts/0018.webp",
+    "date_added": "2026-06-11"
   }
 ]
-]
+
+
