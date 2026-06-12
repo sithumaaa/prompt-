@@ -149,5 +149,82 @@
     "trending": true,
     "image": "./images/prompts/010-instagram-couple.webp",
     "date_added": "2026-06-11"
+  },
+ [
+  {
+    "id": "011",
+    "slug": "soft-glam-natural-light-portrait",
+    "title": "Soft Glam Natural Light Portrait",
+    "metaTitle": "Soft Glam Girl Portrait AI Prompt | PromptVault",
+    "metaDescription": "Transform a selfie into a viral soft glam portrait with natural lighting and realistic beauty.",
+    "prompt": "Use the uploaded image as the identity reference. Preserve the face, skin tone, hairstyle, age, and facial features exactly. Create a soft glam portrait with natural window lighting, glowing skin, visible pores, subtle makeup, calm confident expression, creamy blurred background, DSLR photography, 85mm lens, shallow depth of field, realistic beauty, Instagram aesthetic, photorealistic, ultra detailed, 8K quality.",
+    "tool": "Flux/gemini/chatgpt",
+    "category": "Girl Portraits",
+    "tags": ["soft glam", "portrait", "natural light", "instagram", "photorealistic"],
+    "altText": "Soft glam portrait with natural window lighting",
+    "trending": true,
+    "image": "./images/prompts/0011.webp",
+    "date_added": "2026-06-11"
+  },
+  {
+    "id": "012",
+    "slug": "cafe-window-aesthetic-girl",
+    "title": "Cafe Window Aesthetic",
+    "metaTitle": "Cafe Aesthetic Girl AI Prompt | PromptVault",
+    "metaDescription": "Create a cozy cafe portrait inspired by viral TikTok and Pinterest aesthetics.",
+    "prompt": "Use the uploaded image as the identity reference. Preserve the face exactly. Create a candid portrait of the girl sitting beside a cafe window, holding a coffee cup, warm sunlight through glass, soft shadows, cozy autumn atmosphere, oversized sweater, shallow depth of field, Kodak Portra film tones, natural smile, realistic skin texture, lifestyle photography, ultra realistic.",
+    "tool": "Flux/gemini/chatgpt",
+    "category": "Girl Portraits",
+    "tags": ["cafe", "aesthetic", "lifestyle", "kodak", "portrait"],
+    "altText": "Girl sitting beside a cafe window with coffee",
+    "trending": true,
+    "image": "./images/prompts/0012.webp",
+    "date_added": "2026-06-11"
+  },
+  {
+    "id": "013",
+    "slug": "y2k-flash-camera-girl",
+    "title": "Y2K Flash Camera Portrait",
+    "metaTitle": "Y2K Flash Portrait AI Prompt | PromptVault",
+    "metaDescription": "Generate a viral Y2K digital camera portrait with nostalgic flash photography.",
+    "prompt": "Use the uploaded image as the identity reference. Preserve facial identity perfectly. Create a Y2K-inspired portrait with direct camera flash, early 2000s digital camera aesthetic, slight motion blur, denim fashion, chrome accessories, glossy lips, vibrant colors, nostalgic social media vibe, realistic skin texture, candid pose, photorealistic, high detail.",
+    "tool": "Flux/gemini/chatgpt",
+    "category": "Girl Portraits",
+    "tags": ["y2k", "flash", "retro", "viral", "portrait"],
+    "altText": "Y2K style flash camera portrait",
+    "trending": true,
+    "image": "./images/prompts/0013.webp",
+    "date_added": "2026-06-11"
+  },
+  {
+    "id": "014",
+    "slug": "editorial-vogue-beauty-portrait",
+    "title": "Editorial Vogue Beauty Portrait",
+    "metaTitle": "Editorial Beauty Portrait AI Prompt | PromptVault",
+    "metaDescription": "Turn a selfie into a high-end magazine editorial beauty portrait.",
+    "prompt": "Use the uploaded image as the identity reference. Keep the face completely recognizable. Create a luxury editorial beauty portrait, clean cream background, soft studio lighting, dewy skin, minimal makeup, elegant hairstyle, magazine cover photography, Vogue-inspired composition, 85mm lens, shallow depth of field, ultra realistic skin details, premium fashion photography.",
+    "tool": "Flux/gemini/chatgpt",
+    "category": "Girl Portraits",
+    "tags": ["editorial", "vogue", "beauty", "fashion", "luxury"],
+    "altText": "Luxury editorial beauty portrait",
+    "trending": true,
+    "image": "./images/prompts/0014.webp",
+    "date_added": "2026-06-11"
+  },
+  {
+    "id": "015",
+    "slug": "neon-fashion-night-portrait",
+    "title": "Neon Fashion Night Portrait",
+    "metaTitle": "Neon Fashion Girl Portrait AI Prompt | PromptVault",
+    "metaDescription": "Generate a cyber-fashion neon portrait inspired by viral TikTok aesthetics.",
+    "prompt": "Use the uploaded image as the identity reference. Preserve identity exactly. Create a futuristic fashion portrait with pink and blue neon lighting, glossy reflections, dark background, confident pose, cinematic shadows, trendy streetwear fashion, sharp focus on eyes, realistic skin texture, high contrast lighting, luxury fashion campaign photography, ultra realistic, 8K.",
+    "tool": "Flux/gemini/chatgpt",
+    "category": "Girl Portraits",
+    "tags": ["neon", "fashion", "cyberpunk", "portrait", "tiktok"],
+    "altText": "Girl portrait with pink and blue neon lights",
+    "trending": true,
+    "image": "./images/prompts/0015.webp",
+    "date_added": "2026-06-11"
   }
+]
 ]
