@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { ViewState, PromptEntry } from './types';
 import { fallbackPrompts } from './data/prompts-fallback';
 import { 
@@ -18,9 +18,26 @@ import PromptDetail from './components/PromptDetail';
 import CategoryPage from './components/CategoryPage';
 import { motion, AnimatePresence } from 'motion/react';
 
-export default function App() {
-  // Real-time prompts list (populated from JSON or fallback)
-  const [prompts, setPrompts] = useState<PromptEntry[]>(fallbackPrompts);
+/**
+ * Fisher-Yates shuffle algorithm.
+ * Returns a new shuffled copy of the array without mutating the original.
+ */
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+interface AppProps {
+  initialPrompts: PromptEntry[];
+}
+
+export default function App({ initialPrompts }: AppProps) {
+  // Real-time prompts list (populated from JSON or fallback), shuffled on initial load
+  const [prompts, setPrompts] = useState<PromptEntry[]>(initialPrompts);
   const [loading, setLoading] = useState(true);
 
   // Active view state
@@ -64,7 +81,7 @@ export default function App() {
         if (response.ok) {
           const fetchedList = await response.json();
           if (Array.isArray(fetchedList) && fetchedList.length > 0) {
-            setPrompts(fetchedList);
+            setPrompts(shuffleArray(fetchedList));
           }
         }
       } catch (err) {
